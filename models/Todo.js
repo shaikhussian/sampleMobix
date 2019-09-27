@@ -13,7 +13,7 @@ const Todo = types
   }))
   .views(self => ({
     status() {
-      console.log("done", self.is_done);
+      // console.log("done", self.is_done);
       return self.is_done ? "Done" : "Not Done";
     }
   }));
